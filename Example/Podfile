@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KLScrollPageView_Example' do
+  pod 'KLScrollPageView', :path => '../'
+
+  target 'KLScrollPageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
