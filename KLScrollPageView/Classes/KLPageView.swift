@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KLPageView: UIView {
+open class KLPageView: UIView {
     // 标题
     var titles: [String]
     // 样式
@@ -19,7 +19,7 @@ class KLPageView: UIView {
     var parentVC: UIViewController
     
     //
-    init(frame: CGRect, titles: [String], style: KLPageStyle, childVCs: [UIViewController], parentVC: UIViewController) {
+    public init(frame: CGRect, titles: [String], style: KLPageStyle, childVCs: [UIViewController], parentVC: UIViewController) {
         self.titles = titles
         self.style = style
         self.childVCs = childVCs
@@ -32,7 +32,7 @@ class KLPageView: UIView {
         setupUI()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }

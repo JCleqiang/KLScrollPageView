@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BA6C1531EAEE4AC004223BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		55559FF412CC0653C2E652C4 /* Pods_KLScrollPageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF5BEC0C2BA348428652190 /* Pods_KLScrollPageView_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -31,7 +31,7 @@
 		2B1DCF0122059CCB47583E60 /* Pods-KLScrollPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLScrollPageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLScrollPageView_Example/Pods-KLScrollPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3EF5BEC0C2BA348428652190 /* Pods_KLScrollPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLScrollPageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B76C64CCE8F4325FCFEC1E /* Pods_KLScrollPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLScrollPageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C233C39418534A668C87162 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4C233C39418534A668C87162 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KLScrollPageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLScrollPageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* KLScrollPageView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLScrollPageView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6220EF79034F4E7CE1252919 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6220EF79034F4E7CE1252919 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		75607F2A158E82E0DDEE5A0B /* Pods-KLScrollPageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLScrollPageView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLScrollPageView_Example/Pods-KLScrollPageView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C30B6BA89EDE6A190C84AA75 /* KLScrollPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KLScrollPageView.podspec; path = ../KLScrollPageView.podspec; sourceTree = "<group>"; };
+		C30B6BA89EDE6A190C84AA75 /* KLScrollPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KLScrollPageView.podspec; path = ../KLScrollPageView.podspec; sourceTree = "<group>"; };
 		D08684624668BDA16EFEF121 /* Pods-KLScrollPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLScrollPageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLScrollPageView_Tests/Pods-KLScrollPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB80105517B6A6D215298653 /* Pods-KLScrollPageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLScrollPageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLScrollPageView_Tests/Pods-KLScrollPageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -361,8 +361,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA6C1531EAEE4AC004223BD /* AppDelegate.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         
         let pageView = KLPageView.init(frame: frame, titles: titles, style: style, childVCs: childVCs, parentVC: self)
         view.addSubview(pageView)
+         
     }
 }
 
