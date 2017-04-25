@@ -1,0 +1,6 @@
+framework module Pods_KLScrollPageView_Example {
+  umbrella header "Pods-KLScrollPageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

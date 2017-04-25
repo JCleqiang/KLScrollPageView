@@ -1,0 +1,16 @@
+PODS:
+  - KLScrollPageView (0.1.0)
+
+DEPENDENCIES:
+  - KLScrollPageView (from `../`)
+
+EXTERNAL SOURCES:
+  KLScrollPageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KLScrollPageView: 185c344a1c633364f97e93ea2c2fff2a7810a426
+
+PODFILE CHECKSUM: 62f1360541c70f164441f4e91c3effd1e67e3963
+
+COCOAPODS: 1.2.1
